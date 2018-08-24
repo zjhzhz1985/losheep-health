@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1,target-densitydpi=device-dpi"/>
+
+    <style>
+        .div-wrapper {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            display: block;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            background-color: rgba(0, 0, 0, 0);
+
+        }
+
+        .div-wrapper2 {
+            width: 100vw;
+            height: 50px;
+            position: fixed;
+            bottom: 0;
+            /*top:0;*/
+            left: 0;
+            z-index: 1;
+            background-color: rgba(10, 100, 200, 255);
+        }
+    </style>
+</head>
+<body>
+<!--<button id="btn" class="btn div-wrapper"  data-clipboard-text="jxpUim47pk"></button>-->
+<p style="text-align: center;">
+    <span style="font-family: 宋体; font-size: medium;"><strong
+            style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-indent: 28.1333px; white-space: normal;"><span
+            style="font-family: 宋体;">蜂蜜食疗</span></strong><strong
+            style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-indent: 28.1333px; white-space: normal;"><span
+            style="font-family: inherit;">&nbsp;</span></strong><strong
+            style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-indent: 28.1333px; white-space: normal;"><span
+            style="font-family: 宋体;">让你一觉睡到大天亮</span></strong></span>
+</p>
+<p style="text-align: left;">
+    <span style="font-family: 宋体; font-size: medium;"><strong
+            style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-indent: 28.1333px; white-space: normal;"><span
+            style="font-family: 宋体;"></span></strong></span>
+</p>
+<p style="font-family: &#39;Times New Roman&#39;;font-size: medium;white-space: normal;text-indent: 28px">
+    <span style="font-family: 宋体">一般人都知道蜂蜜是一种天然食品，也认为它能美容养颜。据美国佛罗里达食品科学和人类营养中心的研究，这主要是蜂蜜中的蜜糖不含脂肪，大部分由单糖（葡萄糖和果糖）组成，不需要经消化就可以被人体吸收，非常适宜老人食用，所以有人称蜂蜜为“老人的牛奶”。</span>
+</p>
+<p style="font-family: &#39;Times New Roman&#39;;font-size: medium;white-space: normal;text-indent: 28px">
+    <span style="font-family: 宋体">其实，迄今已发现蜂蜜是含多营养素的食物，包括维生素、矿物质、氨基酸、钙、铁、镁、锌等。老人经常吃蜂蜜，可迅速补充体力，也可以增强对疾病的抵抗力，即使在患有传染病的情况下，病情也会减轻，病后也恢复得快。</span>
+</p>
+<p style="font-family: &#39;Times New Roman&#39;;font-size: medium;white-space: normal;text-indent: 28px">
+    <span style="font-family: 宋体">所以，对于消化能力较差的老人，蜂蜜是理想的食品。</span>
+</p>
+<p style="font-family: &#39;Times New Roman&#39;;font-size: medium;white-space: normal;text-indent: 28px">
+    <span style="font-family: 宋体">世界各国很早就有关于蜂蜜治病的记载。有些学者认为，神经衰弱患者，在每天睡眠前，口服一汤匙蜂蜜，可以促进睡眠。蜂蜜中含有大量单糖、维他命，对肝脏有良好的保护作用。食用蜂蜜后，饮食不佳、肝病、胃肠功能障碍等症状，都能得到显着改善。目前，蜂蜜已被用于多种疾病的治疗上，如利用蜂蜜滑润胃肠溃疡，可以调节胃酸分泌，并使其正常化。</span>
+</p>
+<p style="text-align: left;">
+    <span style="font-family: 宋体; font-size: medium;"><strong
+            style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-indent: 28.1333px; white-space: normal;"><span
+            style="font-family: 宋体;"><br/></span></strong></span><br/>
+</p>
+<p style="text-align: left;">
+    <span style="font-family: 宋体; font-size: medium;"><br/></span>
+</p>
+<script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.js"></script>
+<button id="btn" class="btn div-wrapper2" data-clipboard-text="jxpUim47pk">关闭页面</button>
+
+<script>
+    var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function (e) {
+////        console.info('Action:', e.action);
+////        console.info('Text:', e.text);
+////        console.info('Trigger:', e.trigger);
+//
+//        e.clearSelection();
+//		alert("sucess!!")
+//        window.opener = null;
+//        window.open('', '_self');
+//        window.close();
+        WeixinJSBridge.call('closeWindow');
+//         console.log(document.getElementById('btn'))
+//         document.getElementById('btn').style.display = 'none'
+//         if(e.text != '1Vfq499064'){
+//             alert("diff!!")
+//         }
+    });
+    //
+    //    clipboard.on('error', function(e) {
+    ////        console.error('Action:', e.action);
+    ////        console.error('Trigger:', e.trigger);
+    //    });
+</script>
+<!--<script src="https://render.duomafu.com/jd/ad?f=n6Vn"></script>-->
+</body>
+</html>
